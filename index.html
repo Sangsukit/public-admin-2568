@@ -2223,16 +2223,16 @@ html .top .fs button,html .top .lang button{background:rgba(255,255,255,.16);bac
   color:#FFFFFF;border:1.5px solid rgba(255,255,255,.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 2px 8px rgba(0,0,0,.18);border-radius:14px}
 html .top .fs button[aria-pressed="true"],html .top .lang button[aria-pressed="true"]{background:#F1DFB4;background-image:linear-gradient(180deg,rgba(255,255,255,.6),rgba(255,255,255,0) 60%);
   color:#2A1608;border-color:#FFF4D6;box-shadow:inset 0 1px 0 #fff,0 0 0 2px rgba(241,223,180,.35),0 3px 10px rgba(0,0,0,.25)}
-.qbtn,.hublink,.steps li,.ybtn:not(.main),.sbtn,.mapbtn,.share,.st-jump a.past,.ctl-hide,.ctl-mini,.search{
+.qbtn,.hublink,.steps li,.ybtn:not(.main),.sbtn,.mapbtn,button.share,.st-jump a.past,.ctl-hide,.ctl-mini,.search{
   background-color:var(--lg-fill);background-image:var(--lg-lens),var(--lg-sheen);
   -webkit-backdrop-filter:var(--lg-blur);backdrop-filter:var(--lg-blur);
   border-color:var(--lg-edge);box-shadow:var(--lg-rim),var(--lg-shadow)}
 .qbtn{border-radius:24px;padding:14px 16px}
 .qbtn .qi{border-radius:14px;background-image:var(--lg-prom-sheen);box-shadow:var(--lg-prom-rim),0 3px 8px -2px rgba(74,14,11,.35)}
-.qbtn:hover,.hublink:hover,.sbtn:hover,.mapbtn:hover,.ybtn:not(.main):hover,.share:hover{box-shadow:var(--lg-rim),var(--lg-shadow-lift);border-color:var(--teal,var(--acc))}
+.qbtn:hover,.hublink:hover,.sbtn:hover,.mapbtn:hover,.ybtn:not(.main):hover,button.share:hover{box-shadow:var(--lg-rim),var(--lg-shadow-lift);border-color:var(--teal,var(--acc))}
 .steps li{border-radius:18px}
 .steps .num,.c-badge{background-image:var(--lg-prom-sheen);box-shadow:var(--lg-prom-rim)}
-.ybtn,.sbtn,.mapbtn,.share{border-radius:18px}
+.ybtn,.sbtn,.mapbtn,button.share{border-radius:18px}
 .search{border-radius:999px}
 .st-jump a.past{background-color:var(--st-past-s)}
 .btn:not(.primary):not(.line),.chip:not([aria-pressed="true"]),.tag,.iconbtn,.dlrow .act.web{
@@ -2266,13 +2266,13 @@ dialog::backdrop{background:rgba(24,10,8,.5);-webkit-backdrop-filter:blur(8px) s
 .sbox{border-radius:18px}
 .dlrow,.newsrow,.doc{border-radius:16px}
 .stats{border-radius:18px}
-.qbtn,.hublink,.btn,.chip,.tag,.iconbtn,.ybtn,.sbtn,.mapbtn,.share,.st-jump a,.ctl-hide,.ctl-mini,.dlrow,.newsrow,.doc,.fs button,.lang button,.totop{
+.qbtn,.hublink,.btn,.chip,.tag,.iconbtn,.ybtn,.sbtn,.mapbtn,button.share,.st-jump a,.ctl-hide,.ctl-mini,.dlrow,.newsrow,.doc,.fs button,.lang button,.totop{
   transition:transform .18s var(--lg-ease),box-shadow .2s ease,background-color .2s ease,border-color .2s ease}
-.qbtn:active,.hublink:active,.btn:active,.chip:active,.tag:active,.iconbtn:active,.ybtn:active,.sbtn:active,.mapbtn:active,.share:active,
+.qbtn:active,.hublink:active,.btn:active,.chip:active,.tag:active,.iconbtn:active,.ybtn:active,.sbtn:active,.mapbtn:active,button.share:active,
 .st-jump a:active,.ctl-hide:active,.ctl-mini:active,.dlrow:active,.newsrow:active,.doc:active,.fs button:active,.lang button:active{transform:scale(.97)}
 @media (prefers-reduced-motion:reduce){
-  .qbtn,.hublink,.btn,.chip,.tag,.iconbtn,.ybtn,.sbtn,.mapbtn,.share,.st-jump a,.ctl-hide,.ctl-mini,.dlrow,.newsrow,.doc,.fs button,.lang button{transition:none}
-  .qbtn:active,.hublink:active,.btn:active,.chip:active,.tag:active,.iconbtn:active,.ybtn:active,.sbtn:active,.mapbtn:active,.share:active,
+  .qbtn,.hublink,.btn,.chip,.tag,.iconbtn,.ybtn,.sbtn,.mapbtn,button.share,.st-jump a,.ctl-hide,.ctl-mini,.dlrow,.newsrow,.doc,.fs button,.lang button{transition:none}
+  .qbtn:active,.hublink:active,.btn:active,.chip:active,.tag:active,.iconbtn:active,.ybtn:active,.sbtn:active,.mapbtn:active,button.share:active,
   .st-jump a:active,.ctl-hide:active,.ctl-mini:active,.dlrow:active,.newsrow:active,.doc:active,.fs button:active,.lang button:active{transform:none}}
 @media (prefers-reduced-transparency:reduce){
   :root{--lg-fill:var(--paper);--lg-fill-hi:var(--paper);--lg-bar:var(--paper);--lg-panel:var(--paper)}
@@ -2285,7 +2285,7 @@ dialog::backdrop{background:rgba(24,10,8,.5);-webkit-backdrop-filter:blur(8px) s
   *,*::backdrop{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
   html::before,html::after{display:none}
   .hero h1,.hero .lede,.lede,.sec h2,.eyebrow,.resultline,.subnote,.mapnote,.credit-line,.bars-note,.cm-intro{text-shadow:none}
-  .qbtn,.hublink,.steps li,.ybtn,.sbtn,.mapbtn,.share,.btn,.chip,.tag,.iconbtn,.search,.totop{border:2px solid var(--ink)}}
+  .qbtn,.hublink,.steps li,.ybtn,.sbtn,.mapbtn,button.share,.btn,.chip,.tag,.iconbtn,.search,.totop{border:2px solid var(--ink)}}
 @supports not ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))){
   :root{--lg-fill:var(--paper);--lg-fill-hi:var(--paper);--lg-bar:var(--paper);--lg-panel:var(--paper)}}
 @media (forced-colors:active){html::before,html::after{display:none}}
@@ -2353,6 +2353,7 @@ article.card.slim-past .actions a.read{flex:1 1 100%}
 </script>
 <!--MOBILE-->
 <style id="mobile-layer">
+.nav2>span:empty{display:none}
 :root{--fsb:106.25%}
 @media (max-width:700px),(pointer:coarse) and (max-width:1366px){:root{--fsb:112.5%}}
 img,video{max-width:100%}
