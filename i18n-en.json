@@ -4104,5 +4104,8 @@
 "วันจันทร์ที่ {0} พฤศจิกายน {1}": "Monday {0} November {1|ce}",
 "ปรับปรุงล่าสุด": "Last updated",
 "ยังไม่มีการประชุมของคณะนี้ที่วุฒิสภาเผยแพร่ในปีนี้": "The Senate has not published any meetings of this body for this year yet",
-"ดูการประชุมปี {0}": "See the meetings of {0|ce}"
+"ดูการประชุมปี {0}": "See the meetings of {0|ce}",
+"ไม่ได้จัดทำในนามของวุฒิสภาหรือสำนักงานเลขาธิการวุฒิสภา และไม่ใช่ความเห็นหรือมติของคณะกรรมาธิการ": "It is not made on behalf of the Senate or the Secretariat of the Senate, and is not an opinion or resolution of the committee",
+"เป็นคำแปลโดยใช้ AI ช่วย เพื่อความสะดวกเท่านั้น หากความหมายต่างกัน ให้ถือตามฉบับภาษาไทยและเอกสารทางการของสำนักงานเลขาธิการวุฒิสภา": "is a translation made with the help of AI, for convenience only. If the meaning differs, the Thai version and the official documents of the Secretariat of the Senate prevail",
+"บทสรุป": "Summary"
 }
