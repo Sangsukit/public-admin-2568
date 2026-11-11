@@ -5860,5 +5860,7 @@
 "ขออภัย ขณะนี้เครื่องของท่านยังอ่านออกเสียงไม่ได้ โปรดตรวจว่าไม่ได้ปิดเสียงเครื่องไว้ แล้วกดปุ่มอีกครั้ง หากยังไม่มีเสียง เครื่องอาจยังไม่มีเสียงอ่านภาษาไทย หรือโปรดลองเปิดหน้านี้ด้วยเบราว์เซอร์อื่น ท่านยังอ่านสรุปด้านบนได้ตามปกติ": "Sorry, your device cannot read aloud right now. Please check that your device is not muted, then tap the button again. If there is still no sound, your device may not have a suitable reading voice yet, or please try opening this page in another browser. You can still read the summary above as usual.",
 "วิดีโอเปิดชมได้บนเว็บไซต์นี้ และส่งลิงก์ให้ผู้อื่นชมได้ หากจะนำไปใช้ในสื่ออื่น โปรดติดต่อคณะทำงานก่อน (": "Videos can be watched on this website, and you may send the link for others to watch. To use them in other media, please contact the working team first (",
 "วิดีโอเปิดชมได้บนเว็บไซต์นี้ และส่งลิงก์ให้ผู้อื่นชมได้ หากจะนำไปใช้ในสื่ออื่น โปรดติดต่อคณะทำงานก่อน": "Videos can be watched on this website, and you may send the link for others to watch. To use them in other media, please contact the working team first",
-"ชมวิดีโอได้บนเว็บไซต์นี้ และส่งลิงก์ให้ผู้อื่นชมได้": "You may watch the videos on this website and send the link for others to watch"
+"ชมวิดีโอได้บนเว็บไซต์นี้ และส่งลิงก์ให้ผู้อื่นชมได้": "You may watch the videos on this website and send the link for others to watch",
+"ก่อนการประชุม": "Before the meeting",
+"เรื่องที่นัดพิจารณา": "Matters scheduled for consideration"
 }
