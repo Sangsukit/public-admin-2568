@@ -2715,7 +2715,7 @@ function yearsHTML(){
  return `<p class="ch-lede">เทียบกับปีก่อน ๆ ของคณะกรรมาธิการเดียวกัน ตั้งแต่เริ่มวาระของวุฒิสภาชุดปัจจุบัน</p><div id="ch-yrs"><p class="ch-yr-wait">กำลังเปิดข้อมูลปีก่อน…</p></div>`;
 }
 function yearLinks(){
- return [...document.querySelectorAll("nav.yearnav a[href]")].map(a=>{const y=(a.getAttribute("href").match(/25\d\d/)||a.textContent.match(/25\d\d/)||[])[0];return y?{y:+y,u:new URL("meetings.json",new URL(a.getAttribute("href"),location.href)).href}:null}).filter(Boolean);
+ return [...document.querySelectorAll("nav.yearnav a[href]")].map(a=>{const y=(a.getAttribute("href").match(/25\d\d/)||a.textContent.match(/25\d\d/)||[])[0];return y?{y:+y,u:new URL("meetings.json",new URL(a.getAttribute("href").replace(/^https?:\/\/sangsukit\.github\.io(?=\/)/,""),location.href)).href}:null}).filter(Boolean);
 }
 let yrCache=null;
 async function fillYears(){
